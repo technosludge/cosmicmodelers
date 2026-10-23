@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>COSMIC MODELERS — Figurki z popkultury</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- GWIAZDY W TLE -->
+  <canvas id="stars"></canvas>
+
+  <!-- PASEK DEMO -->
+  <div class="demo-bar">
+    ★ PROJEKT DEMONSTRACYJNY DO PORTFOLIO COPYWRITERSKIEGO ALEKSA ★
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-marquee">
+      <marquee scrollamount="3">✦ WITAJ W COSMIC MODELERS ✦ FIGURKI Z POPKULTURY ✦ RĘCZNA ROBOTA ✦ BEZ AI ✦ CZĘŚĆ ZYSKU NA CELE CHARYTATYWNE ✦ KOLEKCJONERSKIE CUDA Z WASZEGO ULUBIONEGO WSZECHŚWIATA ✦</marquee>
+    </div>
+    <div class="logo-area">
+      <div class="logo-star left">★</div>
+      <div class="logo-main">
+        <span class="logo-cosmic">COSMIC</span>
+        <span class="logo-modelers">MODELERS</span>
+        <div class="logo-sub">~ Figurki z Innego Wymiaru ~</div>
+      </div>
+      <div class="logo-star right">★</div>
+    </div>
+    <nav class="main-nav">
+      <a href="#oferta" class="nav-ball ball-red">Oferta</a>
+      <a href="#jak-robimy" class="nav-ball ball-yellow">Jak robimy?</a>
+      <a href="#galeria" class="nav-ball ball-green">Galeria</a>
+      <a href="#o-nas" class="nav-ball ball-blue">O nas</a>
+      <a href="#kontakt" class="nav-ball ball-purple">Kontakt</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-badge">
+          <div class="badge-star">&#10029;</div>
+          <div class="badge-text">NOWE!</div>
+          <div class="badge-sub">Figurki z gier już dostępne</div>
+        </div>
+
+        <div class="hero-center">
+          <h1 class="hero-title">Twój ulubiony bohater.<br>Teraz w Twoich rękach.</h1>
+          <p class="hero-desc">
+            Robimy figurki z filmów, gier i komiksów tak, jak powinny być robione — powoli, ręcznie i z miłości do popkultury. Żadnych generatorów, żadnych skrótów. Tylko modelina, farba i kilkadziesiąt godzin skupienia.
+          </p>
+          <div class="hero-btns">
+            <a href="#oferta" class="btn-main">Zobacz ofertę</a>
+            <a href="#kontakt" class="btn-secondary">Zamów figurkę</a>
+          </div>
+        </div>
+
+        <div class="hero-planet">
+          <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <radialGradient id="planetGrad" cx="35%" cy="35%">
+                <stop offset="0%" stop-color="#ff6eb4"/>
+                <stop offset="60%" stop-color="#c0148c"/>
+                <stop offset="100%" stop-color="#6b006b"/>
+              </radialGradient>
+            </defs>
+            <ellipse cx="100" cy="130" rx="90" ry="18" fill="none" stroke="#ffcc00" stroke-width="4" opacity="0.7"/>
+            <circle cx="100" cy="100" r="75" fill="url(#planetGrad)"/>
+            <ellipse cx="100" cy="70" rx="45" ry="12" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+            <ellipse cx="100" cy="90" rx="60" ry="10" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="2"/>
+            <text x="100" y="108" text-anchor="middle" font-size="36" fill="white" opacity="0.9">🎮</text>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- OFERTA -->
+    <section class="section" id="oferta">
+      <h2 class="section-title">Co robimy?</h2>
+      <div class="offer-grid">
+
+        <div class="offer-orb orb-1">
+          <div class="orb-icon">🎬</div>
+          <div class="orb-title">Filmy</div>
+          <div class="orb-desc">Bohaterowie z ulubionych produkcji. Od klasycznych horrorów po science fiction — jeśli ktoś to nakręcił, my to urzeźbimy.</div>
+        </div>
+
+        <div class="offer-orb orb-2">
+          <div class="orb-icon">🎮</div>
+          <div class="orb-title">Gry</div>
+          <div class="orb-desc">Postacie z gier zasługują na życie poza ekranem. Tworzymy figurki z dbałością o każdy detal zbroi, broni i wyrazu twarzy.</div>
+        </div>
+
+        <div class="offer-orb orb-3">
+          <div class="orb-icon">📚</div>
+          <div class="orb-title">Komiksy</div>
+          <div class="orb-desc">Superbohaterowie, złoczyńcy, zapomniane postacie z kart komiksów. Dajemy im trzeci wymiar.</div>
+        </div>
+
+        <div class="offer-orb orb-4">
+          <div class="orb-icon">⭐</div>
+          <div class="orb-title">Na zamówienie</div>
+          <div class="orb-desc">Masz konkretną postać, którą kochasz? Napisz do nas. Jeśli istnieje w popkulturze, możemy ją zrobić.</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- JAK ROBIMY -->
+    <section class="section section-dark" id="jak-robimy">
+      <h2 class="section-title yellow">Jak powstaje figurka?</h2>
+      <p class="section-intro">Każda figurka przechodzi przez nasze ręce od początku do końca. Bez skrótów, bez druku 3D, bez generatorów AI. Tak jak w starych, dobrych czasach.</p>
+      <div class="steps-row">
+        <div class="step-item">
+          <div class="step-num">1</div>
+          <div class="step-title">Briefing</div>
+          <div class="step-desc">Opowiadasz nam o postaci, którą chcesz. Im więcej detali, tym lepiej — to ty wiesz najlepiej, jak powinna wyglądać.</div>
+        </div>
+        <div class="step-arrow">►</div>
+        <div class="step-item">
+          <div class="step-num">2</div>
+          <div class="step-title">Szkice</div>
+          <div class="step-desc">Rysujemy propozycje pozy i detali. Akceptujesz albo wprowadzamy poprawki — zanim w ogóle dotkniemy modeliny.</div>
+        </div>
+        <div class="step-arrow">►</div>
+        <div class="step-item">
+          <div class="step-num">3</div>
+          <div class="step-title">Rzeźbienie</div>
+          <div class="step-desc">Modelowanie, wypalanie, szlifowanie. Najdłuższy etap, wymagający skupienia i wielu godzin przy lampce.</div>
+        </div>
+        <div class="step-arrow">►</div>
+        <div class="step-item">
+          <div class="step-num">4</div>
+          <div class="step-title">Malowanie</div>
+          <div class="step-desc">Warstwa po warstwie, pędzelek za pędzelkiem. To tutaj figurka nabiera charakteru i wyrazu.</div>
+        </div>
+        <div class="step-arrow">►</div>
+        <div class="step-item">
+          <div class="step-num">5</div>
+          <div class="step-title">Wysyłka</div>
+          <div class="step-desc">Pakujemy z miłością i wysyłamy bezpiecznie. Twój bohater jedzie do nowego domu.</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIA KONCEPCYJNA -->
+    <section class="section" id="galeria">
+      <h2 class="section-title">Koncepcje demonstracyjne</h2>
+      <p class="section-intro-light">Poniższe projekty to wizualne koncepcje stworzone na potrzeby portfolio. Nie są to zrealizowane zamówienia.</p>
+      <div class="gallery-grid">
+
+        <div class="gallery-card card-pink">
+          <div class="card-visual">
+            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="60" cy="40" r="28" fill="#ffb3d1" stroke="#ff1493" stroke-width="3"/>
+              <ellipse cx="60" cy="42" rx="12" ry="14" fill="#ff69b4"/>
+              <rect x="40" y="68" width="40" height="35" rx="5" fill="#ff1493"/>
+              <rect x="25" y="70" width="15" height="28" rx="4" fill="#ff1493"/>
+              <rect x="80" y="70" width="15" height="28" rx="4" fill="#ff1493"/>
+              <rect x="43" y="103" width="14" height="14" rx="3" fill="#c71585"/>
+              <rect x="63" y="103" width="14" height="14" rx="3" fill="#c71585"/>
+              <circle cx="52" cy="38" r="4" fill="#222"/>
+              <circle cx="68" cy="38" r="4" fill="#222"/>
+              <path d="M50 50 Q60 56 70 50" stroke="#c71585" stroke-width="2" fill="none"/>
+            </svg>
+          </div>
+          <div class="card-info">
+            <div class="card-tag">Koncepcja — filmowa</div>
+            <div class="card-name">Wojowniczka z horroru</div>
+            <div class="card-desc">Figurka 15 cm, ręcznie rzeźbiona i malowana. Studium wyrazu twarzy i detali kostiumu.</div>
+          </div>
+        </div>
+
+        <div class="gallery-card card-blue">
+          <div class="card-visual">
+            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+              <polygon points="60,8 75,35 105,35 82,52 90,80 60,63 30,80 38,52 15,35 45,35" fill="#ffd700" stroke="#ffa500" stroke-width="2"/>
+              <circle cx="60" cy="50" r="20" fill="#4169e1" stroke="#00bfff" stroke-width="3"/>
+              <ellipse cx="60" cy="52" rx="8" ry="10" fill="#1e90ff"/>
+              <rect x="44" y="70" width="32" height="28" rx="4" fill="#4169e1"/>
+              <rect x="30" y="72" width="14" height="22" rx="3" fill="#4169e1"/>
+              <rect x="76" y="72" width="14" height="22" rx="3" fill="#4169e1"/>
+              <rect x="46" y="98" width="12" height="12" rx="2" fill="#27408b"/>
+              <rect x="62" y="98" width="12" height="12" rx="2" fill="#27408b"/>
+              <circle cx="53" cy="48" r="3" fill="#fff"/>
+              <circle cx="67" cy="48" r="3" fill="#fff"/>
+            </svg>
+          </div>
+          <div class="card-info">
+            <div class="card-tag">Koncepcja — gry</div>
+            <div class="card-name">Rycerz z RPG</div>
+            <div class="card-desc">Pełna zbroja płytowa, 18 cm. Złocona tarcza i detale herbu wymagały trzech warstw farby.</div>
+          </div>
+        </div>
+
+        <div class="gallery-card card-green">
+          <div class="card-visual">
+            <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="60" cy="38" rx="22" ry="26" fill="#90ee90" stroke="#228b22" stroke-width="3"/>
+              <ellipse cx="60" cy="40" rx="10" ry="12" fill="#32cd32"/>
+              <rect x="42" y="64" width="36" height="32" rx="5" fill="#228b22"/>
+              <rect x="27" y="66" width="15" height="26" rx="4" fill="#228b22"/>
+              <rect x="78" y="66" width="15" height="26" rx="4" fill="#228b22"/>
+              <rect x="44" y="96" width="13" height="13" rx="2" fill="#006400"/>
+              <rect x="63" y="96" width="13" height="13" rx="2" fill="#006400"/>
+              <circle cx="52" cy="36" r="4" fill="#ff4500"/>
+              <circle cx="68" cy="36" r="4" fill="#ff4500"/>
+              <path d="M48 50 Q60 44 72 50" stroke="#006400" stroke-width="2.5" fill="none"/>
+              <ellipse cx="60" cy="30" rx="8" ry="5" fill="#228b22"/>
+            </svg>
+          </div>
+          <div class="card-info">
+            <div class="card-tag">Koncepcja — komiks</div>
+            <div class="card-name">Mutant z podziemi</div>
+            <div class="card-desc">Klasyczny złoczyńca w nowym wydaniu. 20 cm, efekt skóry uzyskany techniką suchego pędzla.</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- O NAS -->
+    <section class="section section-dark" id="o-nas">
+      <h2 class="section-title yellow">Kim jesteśmy?</h2>
+      <div class="about-box">
+        <div class="about-text">
+          <p>Jesteśmy małą, rodzinną pracownią figurek — i tak ma zostać. Nie jesteśmy fabryką, nie korzystamy z drukarek 3D ani generatorów AI. Każda figurka, która wychodzi spod naszych rąk, powstała tak jak dawniej: szkic, modelina, farba i czas.</p>
+          <p>Kochamy popkulturę od zawsze. Filmy, gry, komiksy — to nie jest dla nas produkt. To część naszego życia. I właśnie dlatego wiemy, jak ważne są szczegóły: kolor oczu postaci, kształt pauldronów, układ fałd na płaszczu.</p>
+          <p>Wierzymy też, że sprzedając rzeczy, które kochamy, możemy robić coś dobrego. Dlatego stałą część każdego zamówienia przekazujemy na cele charytatywne. Bez rozgłosu, po prostu dlatego, że tak powinno być.</p>
+        </div>
+        <div class="about-badge-wrap">
+          <div class="about-badge">
+            <div class="badge-line">🤝 Rodzinna pracownia</div>
+            <div class="badge-line">✋ 100% ręczna robota</div>
+            <div class="badge-line">🚫 Zero AI, zero druku 3D</div>
+            <div class="badge-line">❤️ Część zysku na charity</div>
+            <div class="badge-line">🌍 Wysyłka w całej Polsce</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section">
+      <div class="cta-inner">
+        <div class="cta-explosion">!</div>
+        <h2 class="cta-title">Masz bohatera w głowie?</h2>
+        <p class="cta-desc">Napisz do nas, powiedz o jakiej postaci marzysz, a my powiemy Ci czy i jak możemy ją zrobić. Bez zobowiązań.</p>
+        <a href="#kontakt" class="btn-main big">Napisz do nas!</a>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section class="section section-dark" id="kontakt">
+      <h2 class="section-title yellow">Kontakt</h2>
+      <div class="contact-box">
+        <div class="contact-info">
+          <p class="contact-note">Poniższe dane mają charakter demonstracyjny i nie są prawdziwymi danymi kontaktowymi firmy.</p>
+          <div class="contact-row">
+            <span class="contact-label">📧 E-mail:</span>
+            <span class="contact-val">kontakt@przyklad-cosmicmodelers.pl</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">📍 Lokalizacja:</span>
+            <span class="contact-val">Polska (projekt koncepcyjny, działalność zdalna)</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">⏱ Czas odpowiedzi:</span>
+            <span class="contact-val">Do 2 dni roboczych</span>
+          </div>
+          <div class="contact-row">
+            <span class="contact-label">📦 Wysyłka:</span>
+            <span class="contact-val">Cała Polska, starannie zapakowane</span>
+          </div>
+        </div>
+        <div class="contact-form-note">
+          <div class="form-note-box">
+            <div class="form-note-title">Formularz kontaktowy</div>
+            <p>W działającym serwisie tu znajdowałby się formularz z możliwością opisania zamówionej postaci i przesłania materiałów referencyjnych.</p>
+            <p>Ten projekt jest demonstracją copywritingu, dlatego formularz nie jest aktywny.</p>
+            <a href="mailto:kontakt@przyklad-cosmicmodelers.pl" class="btn-outline">Otwórz przykładowy e-mail</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- STOPKA -->
+  <footer class="site-footer">
+    <div class="footer-marquee">
+      <marquee scrollamount="2">✦ COSMIC MODELERS ✦ FIGURKI Z POPKULTURY ✦ PROJEKT DEMONSTRACYJNY DO PORTFOLIO COPYWRITERSKIEGO ALEKSA ✦ KONCEPCJA MARKI I TEKSTY: ALEKS ✦ HTML/CSS/JS: OPRAWA PREZENTACYJNA ✦</marquee>
+    </div>
+    <div class="footer-bottom">
+      <span>© COSMIC MODELERS — projekt koncepcyjny</span>
+      <a href="#top" class="footer-top">▲ Na górę</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
